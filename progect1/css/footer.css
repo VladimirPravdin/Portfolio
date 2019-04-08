@@ -1,0 +1,180 @@
+.footer-top-back-color{
+    background-color: #00B3CC;
+    color: #FFFFFF;
+}
+.footer-top{
+    display: grid;
+    grid-template-columns: 65px 1.4fr 65px 1fr;
+    align-items: center;
+    min-height: 105px; 
+    font-size: 21px;
+}
+.footer-top div:last-child {
+    justify-self: end;
+}
+.ship-call{
+    height: 65px;
+}
+.img-top-footer{ 
+    width: 65px;
+    height: 65px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: relative;   
+}
+.footer-top .ship-call-text{   
+    vertical-align: top;  
+    margin: 4px 0 5px 19px;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+}
+.footer-top .ship-call div {
+    display: inline-block;    
+}
+.img-top-footer::before{
+    content: "";
+    background-image: url('/img/sprite.png');
+    width: 34px;
+    height: 28px;
+    position: absolute;
+    top: 19px;
+    left: 15px;
+}
+.img-top-footer.ship::before{
+    background-position: -237px -121px;
+}
+.img-top-footer.call::before{
+    background-position: -273px -120px;
+}
+
+
+
+
+
+
+
+.footer-middle-color{
+    background-color: #00A1BB;
+}
+.footer-middle{
+    display: grid;
+    grid-template-columns: 28% 28% 24.7% 19.3%;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding-top: 42px;
+    min-height: 335px;
+}
+.footer-middle .twitter-cont div{
+    margin-top: 2px;
+    display: inline-block;
+}
+.footer-middle .img-twett{
+	vertical-align: top;    
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    background-image: url('/img/sprite.png');
+    background-position: -317px -113px;
+}
+.footer-middle .twitt-text{    
+    width: 170px;
+    margin: 0 0 24px 9px;
+}
+.footer-middle .twitt-text a{
+    color: #9ae2f4;
+}
+.footer-middle .information a{
+    color: inherit;
+}
+.footer-middle .information li{
+    padding: 3px 0 3px 12px;
+}
+.footer-middle .information li::before {
+    background:url('/img/sprite.png') no-repeat -154px -4px;
+    width: 6px;
+    height: 9px;
+    display:inline-block;
+    position:relative;
+    content: "";
+    left: -12px;
+}
+.footer-middle .contact li{
+    padding: 3px 0;
+}
+.footer-middle .social-link{
+    margin-top: 9px;
+    padding-top: 18px;
+    border-top: 1px solid #00B3CC;
+    width: 196px;
+}
+.soc-link{
+    display: inline-block; 
+    vertical-align: top; 
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: relative;   
+}
+.soc-link::before{
+    content: "";
+    background-image: url('/img/sprite.png');
+    width: 18px;
+    height: 19px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+.soc-link.g-plus::before{
+    background-position: -229px -180px;
+}
+.soc-link.in::before{
+    background-position: -256px -179px;
+}
+.soc-link.rss::before{
+    background-position: -281px -179px;
+}
+.soc-link.fb::before{
+    background-position: -302px -177px;
+}
+
+
+
+
+
+.footer-bottom-color{
+    background-color: #004A5A;
+}
+.footer-bottom{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    color: #8adcf0;
+    font-size: 13px;
+    min-height: 61px;
+}
+.footer-bottom .copyright::before{
+    content: '\00A9\00A0';
+}
+.footer-bottom .link-footer{
+    justify-self: end;
+}
+.footer-bottom .link-footer a {
+    display: inline-block;        
+    font-size: inherit;
+    color: inherit;
+    border-right: 1px solid #00A1BB;
+    padding: 0 14px;
+    line-height: 11px; 
+    text-transform: capitalize;    
+}
+.footer-bottom .link-footer a:first-child {
+    padding-left: 0;
+}
+.footer-bottom .link-footer a:last-child {
+    border: none;
+    padding-right: 0;
+}

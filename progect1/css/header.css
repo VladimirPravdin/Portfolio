@@ -1,0 +1,172 @@
+.bg{
+    background-color: #4CB1CA;
+    display: block;
+}
+
+.content{
+    max-width:1055px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.first-header{
+    min-height: 43px;
+    padding-top:12px;
+}
+
+.left-first-header{
+    display: inline-flex;
+}
+
+.lang button,
+.curr button{
+    color: #fff;
+    vertical-align: top;
+}
+
+.first-header  button::after{
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 2px;
+    border-bottom: 1.5px solid #ffffff;
+    border-right: 1.5px solid #ffffff;
+    transform: rotate(45deg);
+    transform-origin: center;
+    position: relative;
+    top:-2px;
+    margin-left: 4px;
+}
+
+.left-first-header .lang{
+    color:#BEF2FF;
+    font-size: 13px;
+    float: left;
+    padding-right: 11px;
+}
+
+.left-first-header .curr{
+    color:#BEF2FF;
+    font-size: 13px;
+    padding-left: 11px;
+}
+
+header .link-header {    
+    margin-top: -3px; 
+    padding-right: 0;    
+}
+
+header .link-header a {
+    display: inline-block;        
+    font-size: 13px;
+    color: #FFFFFF;
+    border-right: 1px solid #A7F2FF;
+    padding: 0 14px;
+    line-height: 11px; 
+    text-transform: capitalize;    
+}
+
+header .link-header a:first-child {
+    padding-left: 0;
+}
+
+header .link-header a:last-child {
+    border: none;
+    padding-right: 0;
+}
+
+header .second-header {
+    min-height: 107px;  
+}
+
+header .second-header .logo {
+    text-transform: uppercase;    
+    display: inline-block;
+    padding-right: 53px;
+    color: #656565;
+    font-size: 36px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+header .second-header .logo a {
+    color: inherit;
+}
+
+header .second-header .item {
+    display: inline-block;      
+    text-transform: uppercase;  
+    font-weight: 700;    
+    font-size: 14px;
+    color: #656565;    
+}
+
+header .second-header .item ul li {
+    display: inline-block; 
+    margin-right: 20px;   
+}
+
+header .second-header .item ul li a {   
+    color: inherit;   
+}
+
+header .second-header .main-search { 
+	margin-left: auto;
+	margin-right: 10px;    
+}
+
+header .second-header .main-search input[type="search"] {
+    border: 1px solid #C7C7C7;
+    vertical-align: top;
+    width: 174px;
+    height: 29px;    
+    padding: 9px 29px 9px 9px;  
+    font-size: 13px;
+    color: #b7b7b7;
+}
+
+header .second-header .main-search input[type="search"]:focus::placeholder {
+    color: transparent;
+}
+
+header .second-header .main-search input[type="search"]::placeholder {
+    color: #b7b7b7;
+}
+
+header .second-header .main-search button {    
+    height: 15px;
+    width: 15px;    
+    display: inline-block;
+    margin-left: -34px;
+    margin-top: 7px;
+    background-image: url('/img/sprite.png');
+    background-position: -4px -4px;
+}
+
+header .second-header .cart {	
+	display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #656565;
+	margin-left: 12px;	
+}
+
+header .cart-section button {
+	width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #5EB300;
+    background-image: url('/img/sprite.png');
+}
+
+header .cart-section .comparison {
+    background-position: -24px 4px;
+}
+
+header .cart-section .button-cart {
+    background-position: -57px 5px;
+}
